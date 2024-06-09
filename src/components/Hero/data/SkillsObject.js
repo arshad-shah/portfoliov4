@@ -1,0 +1,32 @@
+export const skillsObject = {
+	skills: {
+		title: 'Skills',
+		technicalSkills: [
+			'C',
+			'Java',
+			'Python',
+			'JavaScript',
+			'HTML',
+			'CSS',
+			'Kotlin',
+			'React',
+			'React Native',
+			'Ionic',
+			'Capacitor',
+			'MySQL',
+			'MariaDB',
+			'MongoDB',
+			'Git',
+			'AWS',
+			'WebRTC',
+			'Websockets',
+		],
+		softSkills: [
+			'Communication',
+			'Time Management',
+			'Adaptability',
+			'Work Ethic',
+			'Teamwork',
+		],
+	},
+};
