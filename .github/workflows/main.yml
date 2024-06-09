@@ -25,10 +25,24 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
     - name: setup pnpm
       uses: pnpm/action-setup@v4.0.0
       with:
         run_install: true
+    - name: Run tests
+      run: pnpm test
+
+    - name: Build
+      run: pnpm run build # The build command of your project
+
+    - name: Push
+      uses: s0/git-publish-subdir-action@develop
+      env:
+        REPO: self
+        BRANCH: build # The branch name where you want to push the assets
+        FOLDER: dist # The directory where your assets are generated
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
+        MESSAGE: "Build: ({sha}) {msg}" # The commit message
+      
         
       
