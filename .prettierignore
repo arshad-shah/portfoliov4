@@ -1,7 +1,0 @@
-# Ignore setup files
-setupTests.js
-.prettierrc
-.eslintignore
-.eslintrc.js
-babel.config.js
-vite.config.js
