@@ -3,9 +3,21 @@ const experienceObject = {
 		title: 'Work Experience',
 		jobs: [
 			{
+				position: 'Software Engineer',
+				company: 'Houghton Mifflin Harcourt',
+				duration: 'Mar 2024 - Present',
+				location: 'Dublin, County Dublin, Ireland · Hybrid',
+				responsibilities: [
+					'Leading the integration of real-time classroom systems with third-party educational solutions, enhancing user engagement and learning environments.',
+					'Enhancing developer experience within a large-scale monorepo for a microfrontend architecture, accelerating development cycles and minimizing continuous integration times.',
+					'Managing the resolution of complex codebase issues related to phantom and circular dependencies, successfully resolving 90% of symlink loops.',
+					'Developing and maintaining backend services for robust session management, leveraging GraphQL and PostgreSQL for optimized performance and scalability.',
+				],
+			},
+			{
 				position: 'Associate Software Engineer',
 				company: 'Houghton Mifflin Harcourt',
-				duration: 'June 2023 - Present',
+				duration: 'June 2023',
 				location: 'Dublin, Ireland',
 				responsibilities: [
 					'Responsible for the frontend ED Platform and RCE product',

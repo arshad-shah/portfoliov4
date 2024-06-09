@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { BUTTON_SIZES, BUTTON_VARIANTS, IconButton } from '../../common';
+import MyPic from '../../../assets/aboutme.png';
 
 const HeroContent = ({ contentObject }) => {
 	return (
@@ -27,6 +28,13 @@ const HeroContent = ({ contentObject }) => {
 								),
 							)}
 						</div>
+					</div>
+					<div className="hidden items-center justify-center lg:flex">
+						<img
+							src={MyPic}
+							alt="My Picture"
+							className="h-1/2 max-w-full rounded-full border-2 border-gray-200 shadow-lg dark:border-gray-700"
+						/>
 					</div>
 				</div>
 			</div>

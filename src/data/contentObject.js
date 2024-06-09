@@ -5,7 +5,7 @@ import {
 	FaEnvelope,
 	FaHackerrank,
 } from 'react-icons/fa';
-import Resume from '../../../assets/Resume.pdf';
+import Resume from '../assets/Resume.pdf';
 export const contentObject = {
 	hero: {
 		headline: 'Arshad Shah - Passionate Software Engineer',

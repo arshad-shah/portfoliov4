@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { menuObject, contentObject } from './data';
+import { menuObject, contentObject } from '../../data';
 import { MobileMenu, Logo, DesktopMenu, MobileMenuButton } from './components';
 import HeroContent from './components/HeroContent';
 
