@@ -25,13 +25,7 @@ const TimeLineItem = ({
 		</li>
 	);
 };
-/**
- * 			position: PropTypes.string.isRequired,
-			company: PropTypes.string.isRequired,
-			duration: PropTypes.string.isRequired,
-			location: PropTypes.string.isRequired,
-			responsibilities: PropTypes.arrayOf(PropTypes.string).isRequired,
- */
+
 TimeLineItem.propTypes = {
 	position: PropTypes.string.isRequired,
 	company: PropTypes.string.isRequired,

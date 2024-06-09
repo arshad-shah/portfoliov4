@@ -8,9 +8,9 @@ import {
 import Resume from '../assets/Resume.pdf';
 export const contentObject = {
 	hero: {
-		headline: 'Arshad Shah - Passionate Software Engineer',
+		headline: '👋 Hi, I am Arshad Shah ',
 		subheadline:
-			'Creating robust and scalable applications with a focus on problem-solving and innovation.',
+			'Creating maintainable, scalable applications across web, mobile, and cloud platforms.',
 		ctaButtons: [
 			{
 				text: 'Resume',

@@ -1,10 +1,13 @@
-import { Experience, Hero } from './components';
+import { Experience, Hero, Projects } from './components';
+import Footer from './components/common/Footer';
 
 function App() {
 	return (
 		<>
 			<Hero />
 			<Experience />
+			<Projects />
+			<Footer />
 		</>
 	);
 }
