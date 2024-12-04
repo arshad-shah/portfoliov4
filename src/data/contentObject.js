@@ -14,12 +14,11 @@ import { DiPostgresql } from 'react-icons/di';
 import {
 	SiJest,
 	SiPlaywright,
-	SiCucumber,
 	SiGraphql,
 	SiHasura,
 	SiSpring,
 } from 'react-icons/si';
-import { Wrench, GitMerge, Boxes, FileJson } from 'lucide-react';
+import { GitMerge, FileJson } from 'lucide-react';
 
 const featuredTech = [
 	// Frontend Core
@@ -64,10 +63,6 @@ const featuredTech = [
 		label: 'Docker',
 	},
 	{
-		icon: Boxes,
-		label: 'Monorepo',
-	},
-	{
 		icon: GitMerge,
 		label: 'CI/CD',
 	},
@@ -81,10 +76,6 @@ const featuredTech = [
 		icon: SiPlaywright,
 		label: 'Playwright',
 	},
-	{
-		icon: SiCucumber,
-		label: 'Cucumber',
-	},
 
 	// APIs & Tools
 	{
@@ -94,10 +85,6 @@ const featuredTech = [
 	{
 		icon: FileJson,
 		label: 'REST APIs',
-	},
-	{
-		icon: Wrench,
-		label: 'Custom Tools',
 	},
 ];
 

@@ -70,50 +70,6 @@ const TimeLineItem = ({
 					</ul>
 				</div>
 			</div>
-
-			<style>{`
-				@keyframes fadeInSlide {
-					from {
-						opacity: 0;
-						transform: translateX(-20px);
-					}
-					to {
-						opacity: 1;
-						transform: translateX(0);
-					}
-				}
-
-				li {
-					animation: fadeInSlide 0.6s ease-out forwards;
-					opacity: 0;
-				}
-
-				li:nth-child(1) {
-					animation-delay: 0.1s;
-				}
-				li:nth-child(2) {
-					animation-delay: 0.2s;
-				}
-				li:nth-child(3) {
-					animation-delay: 0.3s;
-				}
-				li:nth-child(4) {
-					animation-delay: 0.4s;
-				}
-				li:nth-child(5) {
-					animation-delay: 0.5s;
-				}
-
-				.border-gradient-to-b {
-					border-image: linear-gradient(
-							to bottom,
-							#6366f1,
-							#a855f7,
-							#ec4899
-						)
-						1;
-				}
-			`}</style>
 		</li>
 	);
 };

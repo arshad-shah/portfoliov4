@@ -51,9 +51,9 @@ const HeroContent = ({ contentObject }) => {
 			<div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-gray-100" />
 
 			{/* Decorative Elements */}
-			<div className="animate-blob absolute left-0 top-0 h-64 w-64 rounded-full bg-blue-100 opacity-70 mix-blend-multiply blur-xl filter" />
-			<div className="animate-blob animation-delay-2000 absolute right-0 top-0 h-64 w-64 rounded-full bg-purple-100 opacity-70 mix-blend-multiply blur-xl filter" />
-			<div className="animate-blob animation-delay-4000 absolute -bottom-8 left-20 h-64 w-64 rounded-full bg-pink-100 opacity-70 mix-blend-multiply blur-xl filter" />
+			<div className="absolute left-0 top-0 h-64 w-64 animate-blob rounded-full bg-blue-100 opacity-70 mix-blend-multiply blur-xl filter" />
+			<div className="animation-delay-2000 absolute right-0 top-0 h-64 w-64 animate-blob rounded-full bg-purple-100 opacity-70 mix-blend-multiply blur-xl filter" />
+			<div className="animation-delay-4000 absolute -bottom-8 left-20 h-64 w-64 animate-blob rounded-full bg-pink-100 opacity-70 mix-blend-multiply blur-xl filter" />
 
 			<div className="container relative mx-auto px-6 py-20">
 				<div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
@@ -61,22 +61,22 @@ const HeroContent = ({ contentObject }) => {
 					<div className="flex flex-col justify-center space-y-8">
 						{/* Main Content */}
 						<div className="space-y-6">
-							<h1 className="animate-fade-in-up text-3xl font-bold text-gray-900 md:text-2xl lg:text-3xl">
+							<h1 className="animate-fade-in-up text-3xl font-bold text-gray-900 md:text-2xl lg:text-5xl">
 								{hero.headline}
 							</h1>
-							<p className="animate-fade-in-up animation-delay-200 max-w-2xl text-xl text-gray-600">
+							<p className="animation-delay-200 max-w-2xl animate-fade-in-up text-xl text-gray-600">
 								{hero.subheadline}
 							</p>
-							<p className="animate-fade-in-up animation-delay-300 text-lg text-gray-600">
+							<p className="animation-delay-300 animate-fade-in-up text-lg text-gray-600">
 								{hero.description}
 							</p>
 						</div>
 
 						{/* Current Status & Location */}
-						<div className="animate-fade-in-up animation-delay-400">
+						<div className="animation-delay-400 animate-fade-in-up">
 							<div className="rounded-lg border border-indigo-100 bg-gradient-to-r from-indigo-50/50 to-blue-50/50 p-4 shadow-sm backdrop-blur-sm">
 								{/* Work Preferences */}
-								<div className="animate-fade-in-up animation-delay-700">
+								<div className="animation-delay-700 animate-fade-in-up">
 									{hero.availability.forHire ? (
 										<div className="mb-2 rounded-lg border border-green-200 bg-green-50/50 p-2">
 											<div className="flex flex-wrap items-center gap-2">
@@ -129,7 +129,7 @@ const HeroContent = ({ contentObject }) => {
 						</div>
 
 						{/* Tech Highlights */}
-						<div className="animate-fade-in-up animation-delay-500">
+						<div className="animation-delay-500 animate-fade-in-up">
 							<div className="rounded-lg border border-purple-100 bg-gradient-to-br from-purple-50/50 via-indigo-50/30 to-blue-50/50 p-4 backdrop-blur-sm">
 								<div className="mb-3 flex items-center">
 									<span className="text-base font-semibold text-gray-800">
@@ -137,7 +137,7 @@ const HeroContent = ({ contentObject }) => {
 									</span>
 									<div className="ml-3 h-px flex-grow bg-gradient-to-r from-gray-200 to-transparent"></div>
 								</div>
-								<div className="grid grid-cols-3 gap-3">
+								<div className="grid grid-cols-2 gap-3 md:grid-cols-2 lg:md:grid-cols-3">
 									{hero.featuredTech.map((tech, index) => (
 										<div
 											key={index}
@@ -154,7 +154,7 @@ const HeroContent = ({ contentObject }) => {
 						</div>
 
 						{/* Social Links */}
-						<div className="animate-fade-in-up animation-delay-900">
+						<div className="animation-delay-900 animate-fade-in-up">
 							<div className="flex flex-col items-center gap-6">
 								<div className="flex w-full items-center gap-4 before:h-px before:flex-1 before:bg-gradient-to-r before:from-transparent before:via-purple-200 before:to-purple-200 after:h-px after:flex-1 after:bg-gradient-to-l after:from-transparent after:via-purple-200 after:to-purple-200">
 									<span className="text-base font-semibold text-gray-800">
@@ -180,8 +180,8 @@ const HeroContent = ({ contentObject }) => {
 							{/* Main Image Container */}
 							<div className="relative z-10">
 								{/* Spinning Border with Gradient */}
-								<div className="animate-spin-slow absolute -inset-2 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-20 blur-sm" />
-								<div className="animate-spin-slow animation-delay-2000 absolute -inset-4 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-10 blur-md" />
+								<div className="absolute -inset-2 animate-spin-slow rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-20 blur-sm" />
+								<div className="animation-delay-2000 absolute -inset-4 animate-spin-slow rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-10 blur-md" />
 
 								{/* Image */}
 								<div className="relative rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 p-1">
@@ -195,8 +195,8 @@ const HeroContent = ({ contentObject }) => {
 								</div>
 
 								{/* Decorative Rings */}
-								<div className="animate-spin-slow absolute -inset-4 rounded-full border-2 border-indigo-100" />
-								<div className="animate-spin-slow animation-delay-4000 absolute -inset-8 rounded-full border border-purple-50" />
+								<div className="absolute -inset-4 animate-spin-slow rounded-full border-2 border-indigo-100" />
+								<div className="animation-delay-4000 absolute -inset-8 animate-spin-slow rounded-full border border-purple-50" />
 
 								{/* Decorative Dots */}
 								<div className="absolute -right-12 -top-12 h-8 w-8 rounded-full bg-gradient-to-br from-indigo-400 to-purple-400 blur-sm" />
@@ -206,74 +206,6 @@ const HeroContent = ({ contentObject }) => {
 					</div>
 				</div>
 			</div>
-
-			{/* Custom Animations */}
-			<style>{`
-                @keyframes blob {
-                    0% { transform: translate(0px, 0px) scale(1); }
-                    33% { transform: translate(30px, -50px) scale(1.1); }
-                    66% { transform: translate(-20px, 20px) scale(0.9); }
-                    100% { transform: translate(0px, 0px) scale(1); }
-                }
-
-                @keyframes float {
-                    0% { transform: translateY(0px); }
-                    50% { transform: translateY(-20px); }
-                    100% { transform: translateY(0px); }
-                }
-
-                @keyframes spin-slow {
-                    from { transform: rotate(0deg); }
-                    to { transform: rotate(360deg); }
-                }
-
-                @keyframes fade-in-up {
-                    from {
-                        opacity: 0;
-                        transform: translateY(20px);
-                    }
-                    to {
-                        opacity: 1;
-                        transform: translateY(0);
-                    }
-                }
-
-				.animation-delay-2000 {
-					animation-delay: 2s;
-				}
-
-				.animation-delay-4000 {
-					animation-delay: 4s;
-				}
-
-				@keyframes spin-counter {
-					from {
-						transform: rotate(360deg);
-					}
-					to {
-						transform: rotate(0deg);
-					}
-				}
-
-				.animate-spin-counter {
-					animation: spin-counter 12s linear infinite;
-				}
-
-                .animate-blob { animation: blob 7s infinite; }
-                .animate-float { animation: float 6s ease-in-out infinite; }
-                .animate-spin-slow { animation: spin-slow 12s linear infinite; }
-                .animate-fade-in-up { animation: fade-in-up 0.6s ease-out forwards; }
-                .animation-delay-200 { animation-delay: 200ms; }
-                .animation-delay-300 { animation-delay: 300ms; }
-                .animation-delay-400 { animation-delay: 400ms; }
-                .animation-delay-500 { animation-delay: 500ms; }
-                .animation-delay-600 { animation-delay: 600ms; }
-                .animation-delay-700 { animation-delay: 700ms; }
-                .animation-delay-800 { animation-delay: 800ms; }
-                .animation-delay-900 { animation-delay: 900ms; }
-                .animation-delay-2000 { animation-delay: 2s; }
-                .animation-delay-4000 { animation-delay: 4s; }
-            `}</style>
 		</div>
 	);
 };
