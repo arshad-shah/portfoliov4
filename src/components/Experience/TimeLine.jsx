@@ -3,9 +3,13 @@ import TimeLineItem from './TimeLineItem';
 
 const TimeLine = ({ jobs }) => {
 	return (
-		<ol className="relative border-l border-gray-200 dark:border-gray-700">
+		<ol className="border-gradient-to-b relative border-l-2 from-indigo-100 via-purple-100 to-pink-100">
 			{jobs.map((job, index) => (
-				<TimeLineItem key={index} {...job} />
+				<TimeLineItem
+					key={index}
+					{...job}
+					isLast={index === jobs.length - 1}
+				/>
 			))}
 		</ol>
 	);
