@@ -29,6 +29,32 @@ export const Projects = [
 		colorScheme: 'mobile',
 	},
 	{
+		heading: 'Expense Tracker',
+		description:
+			'A sleek and user-friendly web application to track and manage personal expenses efficiently. This project focuses on modern web development best practices, providing a polished interface and seamless user experience.',
+		features: [
+			'Secure user authentication using Firebase',
+			'Expense categorization and visualization with Recharts',
+			'Interactive drag-and-drop reordering of expenses',
+			'Customizable date ranges for expense tracking',
+			'Responsive design for use across devices',
+		],
+		techDetails:
+			'Built using React with Firebase for backend services, authentication, and database. Styled with Tailwind CSS and utilizes libraries like Recharts for data visualization and Framer Motion for smooth animations.',
+		languages: [
+			'React',
+			'Tailwind CSS',
+			'Firebase',
+			'TypeScript',
+			'Framer Motion',
+			'Vite',
+		],
+		linkAriaLabel: 'link to live site for Expense Tracker',
+		siteLink: 'https://expense.arshadshah.com/login',
+		repoLink: 'https://github.com/arshad-shah/expense-frontend',
+		colorScheme: 'web',
+	},
+	{
 		heading: 'Uber Clone',
 		description:
 			'A fully functional Uber clone that demonstrates advanced React Native development practices and state management techniques. This project showcases the implementation of real-time location tracking, route calculation, and fare estimation using Google Maps APIs.',
