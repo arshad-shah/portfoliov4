@@ -1,0 +1,74 @@
+{
+	"name": {
+		"first": "Arshad",
+		"last": "Shah"
+	},
+	"title": "I build things for the web.",
+	"description": "I'm a software engineer specializing in building exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at HMH.",
+	"location": "Laois, Ireland",
+	"mainTechnologies": [
+		"React",
+		"TypeScript",
+		"Node.js",
+		"PostgreSQL",
+		"GraphQL",
+		"Kubernetes"
+	],
+	"navigationLinks": ["Experience", "Projects", "Contact"],
+	"socialLinks": [
+		{
+			"platform": "GitHub",
+			"url": "https://github.com/arshad-shah",
+			"icon": "Github"
+		},
+		{
+			"platform": "LinkedIn",
+			"url": "https://www.linkedin.com/in/arshadshah",
+			"icon": "Linkedin"
+		},
+		{
+			"platform": "Email",
+			"url": "mailto:arshad@arshadshah.com",
+			"icon": "Mail"
+		},
+		{
+			"platform": "HackerRank",
+			"url": "https://www.hackerrank.com/shaharshad57",
+			"icon": "Award"
+		}
+	],
+	"ctaButtons": [
+		{
+			"text": "View my work",
+			"url": "#projects",
+			"primary": true,
+			"icon": "ArrowRight"
+		},
+		{
+			"text": "Resume",
+			"url": "#",
+			"primary": false,
+			"icon": "Download"
+		}
+	],
+	"particles": [
+		{ "size": 2, "top": "10%", "left": "10%", "type": "normal" },
+		{ "size": 2, "top": "20%", "left": "25%", "type": "normal" },
+		{ "size": 2, "top": "15%", "left": "60%", "type": "normal" },
+		{ "size": 2, "top": "40%", "left": "80%", "type": "normal" },
+		{ "size": 2, "top": "70%", "left": "85%", "type": "normal" },
+		{ "size": 2, "top": "80%", "left": "15%", "type": "normal" },
+		{ "size": 2, "top": "65%", "left": "40%", "type": "normal" },
+		{ "size": 2, "top": "30%", "left": "45%", "type": "normal" },
+		{ "size": 2, "top": "90%", "left": "70%", "type": "normal" },
+		{ "size": 2, "top": "50%", "left": "20%", "type": "normal" },
+		{ "size": 3, "top": "25%", "left": "30%", "type": "large" },
+		{ "size": 3, "top": "45%", "left": "70%", "type": "large" },
+		{ "size": 3, "top": "75%", "left": "65%", "type": "large" },
+		{ "size": 1, "top": "35%", "left": "15%", "type": "small" },
+		{ "size": 1, "top": "55%", "left": "55%", "type": "small" },
+		{ "size": 1, "top": "85%", "left": "35%", "type": "small" },
+		{ "size": 1, "top": "22%", "left": "75%", "type": "small" },
+		{ "size": 1, "top": "60%", "left": "10%", "type": "small" }
+	]
+}

@@ -1,5 +1,5 @@
 import { Experience, Hero, Projects } from './components';
-import Footer from './components/common/Footer';
+import ContactSection from './components/ContactSection';
 
 function App() {
 	return (
@@ -7,7 +7,7 @@ function App() {
 			<Hero />
 			<Experience />
 			<Projects />
-			<Footer />
+			<ContactSection />
 		</>
 	);
 }

@@ -1,0 +1,104 @@
+{
+	"title": "Contact",
+	"intro": {
+		"heading": "Get In Touch",
+		"description": "I'm currently employed full-time, but always happy to connect about projects, ideas, or collaboration opportunities. Whether you have a question or just want to say hello, feel free to reach out! I typically respond within 24 hours."
+	},
+	"contactInfo": [
+		{
+			"icon": "MapPin",
+			"label": "Location",
+			"value": "Abbeyleix, Ireland",
+			"link": null
+		},
+		{
+			"icon": "Mail",
+			"label": "Email",
+			"value": "arshad@arshadshah.com",
+			"link": "mailto:arshad@arshadshah.com"
+		},
+		{
+			"icon": "Phone",
+			"label": "Phone",
+			"value": "Available upon request",
+			"link": null
+		},
+		{
+			"icon": "Clock",
+			"label": "Availability",
+			"value": "Limited availability",
+			"link": null
+		}
+	],
+	"socialProfiles": {
+		"heading": "Connect With Me",
+		"profiles": [
+			{
+				"icon": "Github",
+				"label": "GitHub",
+				"url": "https://github.com/arshad-shah"
+			},
+			{
+				"icon": "Linkedin",
+				"label": "LinkedIn",
+				"url": "https://www.linkedin.com/in/arshadshah"
+			},
+			{
+				"icon": "Mail",
+				"label": "Email",
+				"url": "mailto:arshad@arshadshah.com"
+			},
+			{
+				"icon": "Award",
+				"label": "HackerRank",
+				"url": "https://www.hackerrank.com/shaharshad57"
+			}
+		]
+	},
+	"workingHours": {
+		"heading": "Working Hours",
+		"items": [
+			{
+				"icon": "Calendar",
+				"label": "Monday - Friday",
+				"value": "9:00 AM - 6:00 PM GMT"
+			},
+			{
+				"icon": "Clock",
+				"label": "Response Time",
+				"value": "Within 24 hours"
+			},
+			{
+				"icon": "Briefcase",
+				"label": "Current Status",
+				"value": "Employed",
+				"badge": {
+					"color": "blue",
+					"text": "Employed"
+				}
+			}
+		]
+	},
+	"expertise": {
+		"heading": "Expertise",
+		"description": "My technical skills and areas of interest include:",
+		"skills": [
+			"React",
+			"JavaScript",
+			"TypeScript",
+			"Next.js",
+			"Node.js",
+			"Tailwind CSS",
+			"Java",
+			"Python"
+		]
+	},
+	"footer": {
+		"name": {
+			"first": "Arshad",
+			"last": "Shah"
+		},
+		"tagline": "Software Engineer based in Ireland",
+		"message": "Designed & Built with"
+	}
+}
