@@ -60,8 +60,8 @@ const ProjectsSection = () => {
 		>
 			{/* Background elements */}
 			<div className="absolute inset-0 overflow-hidden">
-				<div className="absolute left-1/4 top-20 h-64 w-64 rounded-full bg-indigo-900/20 blur-3xl"></div>
-				<div className="absolute bottom-20 right-1/4 h-64 w-64 rounded-full bg-blue-900/10 blur-3xl"></div>
+				<div className="absolute top-20 left-1/4 h-64 w-64 rounded-full bg-indigo-900/20 blur-3xl"></div>
+				<div className="absolute right-1/4 bottom-20 h-64 w-64 rounded-full bg-blue-900/10 blur-3xl"></div>
 			</div>
 
 			<div className="relative mx-auto max-w-6xl px-6">
@@ -237,7 +237,7 @@ const ProjectsSection = () => {
 
 								{/* Side accent bar */}
 								<div
-									className={`absolute left-0 top-0 h-full w-1 bg-${accentColor}-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100`}
+									className={`absolute top-0 left-0 h-full w-1 bg-${accentColor}-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100`}
 								></div>
 							</div>
 						);
@@ -269,7 +269,7 @@ const ProjectsSection = () => {
 						{/* Close button */}
 						<button
 							onClick={closeProjectDetails}
-							className="absolute right-4 top-4 rounded-full bg-gray-800 p-2 text-gray-400 transition-colors hover:bg-gray-700 hover:text-white"
+							className="absolute top-4 right-4 rounded-full bg-gray-800 p-2 text-gray-400 transition-colors hover:bg-gray-700 hover:text-white"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -318,7 +318,7 @@ const ProjectsSection = () => {
 													className="flex items-start"
 												>
 													<div
-														className={`mr-2 mt-1 h-2 w-2 flex-shrink-0 rounded-full bg-${activeProject.colorScheme === 'mobile' ? 'emerald' : 'indigo'}-400`}
+														className={`mt-1 mr-2 h-2 w-2 flex-shrink-0 rounded-full bg-${activeProject.colorScheme === 'mobile' ? 'emerald' : 'indigo'}-400`}
 													></div>
 													<span className="text-sm text-gray-300">
 														{feature}

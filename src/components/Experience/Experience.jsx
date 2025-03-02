@@ -138,7 +138,7 @@ const Experience = () => {
 					{/* Right side - Job details with animated transitions */}
 					<div className="relative md:col-span-9">
 						{/* Vertical code line with technology badges */}
-						<div className="absolute left-0 top-0 h-full w-px bg-gradient-to-b from-indigo-500/0 via-indigo-500/70 to-indigo-500/0">
+						<div className="absolute top-0 left-0 h-full w-px bg-gradient-to-b from-indigo-500/0 via-indigo-500/70 to-indigo-500/0">
 							{processedJobs[activeJob].technologies.map(
 								(tech, idx) => (
 									<div
@@ -201,7 +201,7 @@ const Experience = () => {
 												key={idx}
 												className="group flex transition-all hover:-translate-y-1"
 											>
-												<div className="mr-3 mt-1 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-gray-800 group-hover:bg-indigo-500/20">
+												<div className="mt-1 mr-3 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-gray-800 group-hover:bg-indigo-500/20">
 													<ChevronRight className="h-4 w-4 text-indigo-400" />
 												</div>
 												<span className="text-gray-300 group-hover:text-white">

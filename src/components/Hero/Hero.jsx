@@ -214,7 +214,7 @@ const Hero = () => {
 				</div>
 
 				{/* Main content */}
-				<div className="relative mx-auto max-w-7xl px-6 pb-20 pt-32 md:flex md:min-h-screen md:flex-col md:justify-center">
+				<div className="relative mx-auto max-w-7xl px-6 pt-32 pb-20 md:flex md:min-h-screen md:flex-col md:justify-center">
 					<div className="grid items-center gap-12 md:grid-cols-5 md:gap-16 lg:grid-cols-12 lg:gap-24">
 						{/* Text content - left side */}
 						<div className="md:col-span-3 lg:col-span-7">

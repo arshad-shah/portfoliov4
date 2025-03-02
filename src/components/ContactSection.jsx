@@ -141,7 +141,7 @@ const ContactSection = () => {
 											</div>
 											{item.badge ? (
 												<span
-													className={`rounded-full bg-${item.badge.color}-900 px-3 py-1 text-xs font-medium text-${item.badge.color}-400`}
+													className={`rounded-full bg-${item.badge.color}-500 bg-blue px-3 py-1 text-xs font-medium text-${item.badge.color}-100`}
 												>
 													{item.badge.text}
 												</span>

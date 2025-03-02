@@ -2,7 +2,7 @@
 	"title": "Contact",
 	"intro": {
 		"heading": "Get In Touch",
-		"description": "I'm currently open to new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hello, feel free to reach out! I typically respond within 24 hours."
+		"description": "I'm currently employed full-time, but always happy to connect about projects, ideas, or collaboration opportunities. Whether you have a question or just want to say hello, feel free to reach out! I typically respond within 24 hours."
 	},
 	"contactInfo": [
 		{
@@ -26,7 +26,7 @@
 		{
 			"icon": "Clock",
 			"label": "Availability",
-			"value": "Open to opportunities",
+			"value": "Limited availability",
 			"link": null
 		}
 	],
@@ -71,17 +71,17 @@
 			{
 				"icon": "Briefcase",
 				"label": "Current Status",
-				"value": "Available",
+				"value": "Employed",
 				"badge": {
-					"color": "green",
-					"text": "Available"
+					"color": "blue",
+					"text": "Employed"
 				}
 			}
 		]
 	},
 	"expertise": {
 		"heading": "Expertise",
-		"description": "Let's collaborate on projects involving these technologies:",
+		"description": "My technical skills and areas of interest include:",
 		"skills": [
 			"React",
 			"JavaScript",
