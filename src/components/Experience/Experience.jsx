@@ -137,30 +137,8 @@ const Experience = () => {
 
 					{/* Right side - Job details with animated transitions */}
 					<div className="relative md:col-span-9">
-						{/* Vertical code line with technology badges */}
-						<div className="absolute top-0 left-0 h-full w-px bg-gradient-to-b from-indigo-500/0 via-indigo-500/70 to-indigo-500/0">
-							{processedJobs[activeJob].technologies.map(
-								(tech, idx) => (
-									<div
-										key={idx}
-										className="absolute flex items-center"
-										style={{ top: `${(idx + 1) * 14}%` }}
-									>
-										<div
-											className={`-ml-3 flex h-6 w-6 items-center justify-center rounded-full ${tech.color}`}
-										>
-											<tech.icon className="h-4 w-4 text-white" />
-										</div>
-										<div className="ml-4 rounded bg-gray-900/80 px-2 py-1 font-mono text-xs text-gray-300">
-											{tech.name}
-										</div>
-									</div>
-								),
-							)}
-						</div>
-
 						{/* Active job content */}
-						<div className="ml-36 rounded-lg border border-gray-800 bg-gray-900/70 p-6 backdrop-blur-sm transition-all">
+						<div className="rounded-lg border border-gray-800 bg-gray-900/70 p-6 backdrop-blur-sm transition-all">
 							{/* Job header with gradient */}
 							<div className="mb-6 rounded-md border border-gray-800 bg-gray-900 p-4">
 								<h3 className="text-xl font-bold text-white">
