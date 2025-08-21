@@ -60,12 +60,12 @@ const Experience = () => {
 						<div className="sticky top-24 space-y-6">
 							{processedJobs.map((job, index) => (
 								<button
-									key={index}
+									key={job.position}
 									onClick={() => setActiveJob(index)}
 									className={`group w-full text-left transition-all ${
 										activeJob === index
 											? 'scale-105'
-											: 'opacity-70 hover:opacity-100'
+											: 'opacity-70 hover:cursor-pointer hover:opacity-100'
 									}`}
 								>
 									<div className="mb-1 flex items-center gap-2">
@@ -101,37 +101,6 @@ const Experience = () => {
 									</div>
 								</button>
 							))}
-
-							{/* Terminal-like decoration */}
-							<div className="mt-6 rounded-md border border-gray-800 bg-gray-900 p-3 font-mono text-xs text-gray-400">
-								<div className="mb-1 flex items-center space-x-1">
-									<div className="h-2 w-2 rounded-full bg-red-500"></div>
-									<div className="h-2 w-2 rounded-full bg-yellow-500"></div>
-									<div className="h-2 w-2 rounded-full bg-green-500"></div>
-								</div>
-								<div className="space-y-1">
-									<p>
-										<span className="text-indigo-400">
-											const
-										</span>{' '}
-										experience ={' '}
-										<span className="text-green-400">
-											{experienceData.jobs.length}
-										</span>
-										;
-									</p>
-									<p>
-										<span className="text-indigo-400">
-											let
-										</span>{' '}
-										current ={' '}
-										<span className="text-green-400">
-											{activeJob}
-										</span>
-										;
-									</p>
-								</div>
-							</div>
 						</div>
 					</div>
 

@@ -3,7 +3,6 @@
 		"heading": "Multi Tool React App",
 		"description": "A comprehensive collection of 22 lightweight React-based tools with beautiful design, made to allow for quick access to everyday utilities. This versatile app combines functionality with elegant UI to enhance productivity for developers and general users alike.",
 		"features": [
-			"Password generator with customizable complexity",
 			"Color testers and palette generators",
 			"Pomodoro timer for productivity",
 			"Hash generator for various algorithms",
@@ -52,6 +51,38 @@
 		"repoLink": "https://github.com/arshad-shah/Nimaz",
 		"siteLink": "https://nimaz.arshadshah.com/",
 		"colorScheme": "mobile"
+	},
+	{
+		"heading": "Request Interceptor",
+		"description": "A sophisticated Chrome extension that enables developers to intercept and mock API responses for UI testing and development. Built with Manifest V3, it provides a comprehensive solution for creating custom rules to modify HTTP/HTTPS requests and responses without requiring external proxy tools or backend changes.",
+		"features": [
+			"Real-time interception of XMLHttpRequest and Fetch API calls",
+			"Advanced URL pattern matching with regex and wildcard support",
+			"Custom response mocking with configurable status codes and delays",
+			"Route management with enable/disable toggles",
+			"JSON schema import/export for bulk route configuration",
+			"Template system for common API mocking scenarios",
+			"Side panel interface with expandable route cards",
+			"ACE editor integration for JSON response editing",
+			"Search and filter functionality for route management",
+			"Privacy-focused with local storage and no data collection"
+		],
+		"techDetails": "Built using Chrome Extension Manifest V3 with a service worker background script and content script injection. Implements monkey patching of XMLHttpRequest and Fetch APIs for request interception. Features a modern side panel UI with ACE editor integration, Prism syntax highlighting, and responsive design using CSS Grid and Flexbox.",
+		"languages": [
+			"JavaScript",
+			"Chrome Extension API",
+			"Manifest V3",
+			"HTML",
+			"CSS",
+			"ACE Editor",
+			"Prism.js",
+			"Chrome Storage API",
+			"Service Workers"
+		],
+		"linkAriaLabel": "link to Chrome Web Store for Request Interceptor extension",
+		"shopLink": "https://chromewebstore.google.com/detail/kdkoankhjjfigmglogldpoidnjfpaiij",
+		"repoLink": "https://github.com/arshad-shah/request-interceptor",
+		"colorScheme": "web"
 	},
 	{
 		"heading": "Expense Tracker",

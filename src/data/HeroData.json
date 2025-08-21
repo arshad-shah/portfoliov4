@@ -3,16 +3,17 @@
 		"first": "Arshad",
 		"last": "Shah"
 	},
-	"title": "I build things for the web.",
-	"description": "I'm a software engineer specializing in building exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at HMH.",
-	"location": "Laois, Ireland",
+	"title": "Software Engineer & Full-Stack Developer",
+	"description": "I'm a software engineer passionate about building scalable web applications and educational technology solutions. Currently working at HMH, where I focus on microfrontend architecture, developer experience, and real-time integrations.",
+	"location": "Dublin, Ireland",
 	"mainTechnologies": [
 		"React",
 		"TypeScript",
-		"Node.js",
-		"PostgreSQL",
 		"GraphQL",
-		"Kubernetes"
+		"PostgreSQL",
+		"Kubernetes",
+		"Spring Boot",
+		"Microfrontends"
 	],
 	"navigationLinks": ["Experience", "Projects", "Contact"],
 	"socialLinks": [
@@ -30,45 +31,40 @@
 			"platform": "Email",
 			"url": "mailto:arshad@arshadshah.com",
 			"icon": "Mail"
-		},
-		{
-			"platform": "HackerRank",
-			"url": "https://www.hackerrank.com/shaharshad57",
-			"icon": "Award"
 		}
 	],
 	"ctaButtons": [
 		{
-			"text": "View my work",
+			"text": "View Projects",
 			"url": "#projects",
 			"primary": true,
 			"icon": "ArrowRight"
 		},
 		{
-			"text": "Resume",
-			"url": "#",
+			"text": "Get In Touch",
+			"url": "#contact",
 			"primary": false,
-			"icon": "Download"
+			"icon": "Mail"
 		}
 	],
 	"particles": [
-		{ "size": 2, "top": "10%", "left": "10%", "type": "normal" },
-		{ "size": 2, "top": "20%", "left": "25%", "type": "normal" },
-		{ "size": 2, "top": "15%", "left": "60%", "type": "normal" },
-		{ "size": 2, "top": "40%", "left": "80%", "type": "normal" },
-		{ "size": 2, "top": "70%", "left": "85%", "type": "normal" },
-		{ "size": 2, "top": "80%", "left": "15%", "type": "normal" },
-		{ "size": 2, "top": "65%", "left": "40%", "type": "normal" },
-		{ "size": 2, "top": "30%", "left": "45%", "type": "normal" },
-		{ "size": 2, "top": "90%", "left": "70%", "type": "normal" },
-		{ "size": 2, "top": "50%", "left": "20%", "type": "normal" },
-		{ "size": 3, "top": "25%", "left": "30%", "type": "large" },
-		{ "size": 3, "top": "45%", "left": "70%", "type": "large" },
-		{ "size": 3, "top": "75%", "left": "65%", "type": "large" },
-		{ "size": 1, "top": "35%", "left": "15%", "type": "small" },
-		{ "size": 1, "top": "55%", "left": "55%", "type": "small" },
-		{ "size": 1, "top": "85%", "left": "35%", "type": "small" },
-		{ "size": 1, "top": "22%", "left": "75%", "type": "small" },
-		{ "size": 1, "top": "60%", "left": "10%", "type": "small" }
+		{ "size": 2, "top": "15%", "left": "12%", "type": "normal" },
+		{ "size": 2, "top": "25%", "left": "28%", "type": "normal" },
+		{ "size": 2, "top": "18%", "left": "65%", "type": "normal" },
+		{ "size": 2, "top": "45%", "left": "82%", "type": "normal" },
+		{ "size": 2, "top": "72%", "left": "88%", "type": "normal" },
+		{ "size": 2, "top": "85%", "left": "18%", "type": "normal" },
+		{ "size": 2, "top": "68%", "left": "42%", "type": "normal" },
+		{ "size": 2, "top": "32%", "left": "48%", "type": "normal" },
+		{ "size": 2, "top": "92%", "left": "72%", "type": "normal" },
+		{ "size": 2, "top": "52%", "left": "22%", "type": "normal" },
+		{ "size": 3, "top": "28%", "left": "35%", "type": "large" },
+		{ "size": 3, "top": "48%", "left": "75%", "type": "large" },
+		{ "size": 3, "top": "78%", "left": "68%", "type": "large" },
+		{ "size": 1, "top": "38%", "left": "18%", "type": "small" },
+		{ "size": 1, "top": "58%", "left": "58%", "type": "small" },
+		{ "size": 1, "top": "88%", "left": "38%", "type": "small" },
+		{ "size": 1, "top": "25%", "left": "78%", "type": "small" },
+		{ "size": 1, "top": "62%", "left": "12%", "type": "small" }
 	]
 }

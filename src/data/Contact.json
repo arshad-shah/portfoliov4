@@ -10,24 +10,6 @@
 			"label": "Location",
 			"value": "Abbeyleix, Ireland",
 			"link": null
-		},
-		{
-			"icon": "Mail",
-			"label": "Email",
-			"value": "arshad@arshadshah.com",
-			"link": "mailto:arshad@arshadshah.com"
-		},
-		{
-			"icon": "Phone",
-			"label": "Phone",
-			"value": "Available upon request",
-			"link": null
-		},
-		{
-			"icon": "Clock",
-			"label": "Availability",
-			"value": "Limited availability",
-			"link": null
 		}
 	],
 	"socialProfiles": {
@@ -74,23 +56,23 @@
 				"value": "Employed",
 				"badge": {
 					"color": "blue",
-					"text": "Employed"
+					"text": "Employed (Open to opportunities)"
 				}
 			}
 		]
 	},
 	"expertise": {
 		"heading": "Expertise",
-		"description": "My technical skills and areas of interest include:",
+		"description": "My core areas of expertise and specialization include:",
 		"skills": [
-			"React",
-			"JavaScript",
-			"TypeScript",
-			"Next.js",
-			"Node.js",
-			"Tailwind CSS",
-			"Java",
-			"Python"
+			"Full-Stack Web Development",
+			"Mobile Application Development",
+			"API Development & Integration",
+			"Chrome Extension Development",
+			"UI/UX Engineering",
+			"Database Design & Optimization",
+			"Performance Optimization",
+			"DevOps & Cloud Deployment"
 		]
 	},
 	"footer": {

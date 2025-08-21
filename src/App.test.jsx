@@ -1,5 +1,5 @@
-import { describe, it, expect, vi } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { render, screen, cleanup } from '@testing-library/react';
 import App from './App';
 
 // Mock the child components
@@ -22,6 +22,10 @@ vi.mock('./components/ContactSection', () => ({
 }));
 
 describe('App Component', () => {
+	beforeEach(() => {
+		cleanup();
+	});
+
 	it('renders all child components correctly', () => {
 		render(<App />);
 
@@ -44,5 +48,29 @@ describe('App Component', () => {
 		expect(components[1]).toHaveTextContent('Experience Component');
 		expect(components[2]).toHaveTextContent('Projects Component');
 		expect(components[3]).toHaveTextContent('Contact Section Component');
+	});
+
+	it('renders without crashing', () => {
+		const { container } = render(<App />);
+		expect(container.firstChild).toBeInTheDocument();
+	});
+
+	it('renders with React Fragment as root element', () => {
+		const { container } = render(<App />);
+		// React Fragment doesn't create a wrapper element, so we check for direct children
+		expect(container.children.length).toBeGreaterThan(0);
+	});
+
+	it('has accessible structure', () => {
+		render(<App />);
+
+		// Verify that components are properly nested and accessible
+		const components = screen.getAllByTestId(/component$/);
+		expect(components).toHaveLength(4);
+
+		// Each component should be visible
+		components.forEach((component) => {
+			expect(component).toBeVisible();
+		});
 	});
 });

@@ -3,7 +3,7 @@
 	"jobs": [
 		{
 			"position": "Software Engineer",
-			"company": "Houghton Mifflin Harcourt",
+			"company": "HMH",
 			"duration": "Mar 2024 - Present",
 			"location": "Dublin, Ireland",
 			"responsibilities": [
@@ -39,7 +39,7 @@
 		},
 		{
 			"position": "Associate Software Engineer",
-			"company": "Houghton Mifflin Harcourt",
+			"company": "HMH",
 			"duration": "June 2023 - Mar 2024",
 			"location": "Dublin, Ireland",
 			"responsibilities": [
@@ -79,19 +79,15 @@
 	"skills": [
 		"React",
 		"TypeScript",
-		"Spring Boot",
-		"Java",
-		"Kotlin",
-		"Android",
-		"Firebase",
-		"Hasura",
 		"GraphQL",
-		"MongoDB",
 		"PostgreSQL",
-		"SQLite",
 		"Kubernetes",
 		"Docker",
+		"Spring Boot",
+		"Java",
+		"MongoDB",
 		"CI/CD",
-		"Micro Frontends"
+		"Microfrontends",
+		"Node.js"
 	]
 }
