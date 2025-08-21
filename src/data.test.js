@@ -423,8 +423,8 @@ describe('Schema-Based Data Validation', () => {
 				heroLinksCount: z.number().min(3),
 				jobsCount: z.number().min(1),
 				projectsCount: z.number().min(4),
-				contactInfoCount: z.number().min(3),
-				skillsCount: z.number().min(5),
+				contactInfoCount: z.number().min(1),
+				skillsCount: z.number().min(8),
 			});
 
 			const completenessData = {

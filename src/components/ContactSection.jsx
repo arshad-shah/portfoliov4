@@ -13,6 +13,7 @@ import {
 import { memo } from 'react';
 import contactData from '../data/Contact.json';
 import SectionHeader from './common/SectionHeader';
+import PropTypes from 'prop-types';
 
 // Icon mapping to dynamically render icons based on string names from JSON
 const iconComponents = {
